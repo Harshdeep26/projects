@@ -28,3 +28,27 @@ When the user enters a word:-
 If the word exists, it's correctly spelled.
 If the word does not exist, find words with a similar prefix and suggest alternatives.
 Suggestions are generated recursively by traversing the Trie from the last matching letter of the prefix.
+
+Example Runs:
+
+Input 1
+Enter a word to check spelling: apple
+
+Output 1
+apple is spelled correctly!
+
+
+Input 2
+Enter a word to check spelling: bal
+
+Output 2
+bal is not found! Did you mean:
+- ball
+- balloon
+
+Input 3
+Enter a word to check spelling: xyz
+
+Output 3
+xyz is not found! No suggestions available!
+
